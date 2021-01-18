@@ -34,5 +34,23 @@
       "sha256_cert_fingerprints":
         ["AF:93:4F:47:8A:B7:6E:03:F3:7B:DB:D1:C5:6B:2A:1C:81:37:F3:FE:0E:56:E8:FB:0E:BE:24:E5:80:38:03:7C"]
     }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.example.demo.payment.accountsignup",
+      "sha256_cert_fingerprints":
+        ["AF:93:4F:47:8A:B7:6E:03:F3:7B:DB:D1:C5:6B:2A:1C:81:37:F3:FE:0E:56:E8:FB:0E:BE:24:E5:80:38:03:7C"]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.example.demo.authapp",
+      "sha256_cert_fingerprints":
+        ["AF:93:4F:47:8A:B7:6E:03:F3:7B:DB:D1:C5:6B:2A:1C:81:37:F3:FE:0E:56:E8:FB:0E:BE:24:E5:80:38:03:7C"]
+    }
   }
 ]
